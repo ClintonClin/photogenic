@@ -7,9 +7,9 @@
         <h2>{{message}}</h2>
         {% endif %}
     </div>
-    <div class="masonry text-center">
+    <div class="col-lg-3 col-md-4 col-sm-2">
         {% for image in all_images %}
-        <div class="item animated zoomIn">
+        <div class="col-lg-3 col-md-4 col-sm-2">
             <a href="{{image.image_path.url}}" data-fancybox="images" data-buttons='["zoom","slideShow","fullScreen","thumbs","share","close"]'
                 data-caption='<a href="{{image.image_path.url}}"><h6>{{image.image_name}}</h6></a>
                                                                     <p>{{image.image_description}}</p>
