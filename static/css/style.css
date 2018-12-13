@@ -1,5 +1,18 @@
-div.navpic{
-    font-family: 'Orbitron',
-    sans-serif;
+.gallery1 {
+    font-family: 'Orbitron', sans-serif;
     text-align: center;
+    font-size: 100px;
+    color: black;
+
+}
+
+#navpic1{
+    font-family: 'Press Start 2P',
+    cursive;
+}
+
+.maridadi{
+    font-family: 'Black Ops One',
+    cursive;
+    font-size: 40px;
 }

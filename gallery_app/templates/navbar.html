@@ -1,9 +1,7 @@
-{% load bootstrap4 %}
-{% load static%}
-<div class="navpic">
+<div id="navpic">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="/">gggalery.</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navpic1">
+        <a class="navbar-brand" href="/">gggallery</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -12,7 +10,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="{% url 'main' %}">Gallery <span class="Gallery">(current)</span></a>
+                    <a class="nav-link" href="{% url 'main' %}">Gallery <span class="Gallery"></span></a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -35,12 +33,12 @@
         </div>
     </nav>
     <br>
-    <br>
-    <br>
-    <div class="text-center header mt-5 animated shake"><span id='gallery1'>
-        <h1 style="text-decoration: underline overline">gggallery.</h1>
-        <p>Perfection at its best!</p>
-    </span></div>
+    <div class="text-center header mt-5 animated shake"><span class='gallery1'>
+        <h1 style="text-decoration: underline overline">gggallery.</h1></span>
+        <span class="maridadi">
+            <p>Perfection at its best!</p>
+        </span>
+    </div>
     <br>
     <br>
     <br>

@@ -9,27 +9,35 @@
     <meta charset="utf-8">
 
     {% if title %}
-    <title>gallery-app - {{title}}</title>
+    <title>Gallery{{title}}</title>
     {% else %}
-    <title>gallery-app </title>
+    <title>Gallery</title>
     {% endif %}
 
     {% block styles %}
         {% bootstrap_css %}
-        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+        <link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.css" />
         <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+        <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css">
     {% endblock %}
 
 </head>
 
 <body>
-
     {% include "navbar.html" %}
 
     {% block content %}
+    
+    {%endblock%}
 
+    {% block scripts %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    {% bootstrap_javascript %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.js"></script>
     {% endblock %}
-
 </body>
 
 </html>
