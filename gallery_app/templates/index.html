@@ -13,8 +13,8 @@
             <a href="{{image.image_path.url}}" data-fancybox="images" data-buttons='["zoom","slideShow","fullScreen","thumbs","share","close"]'
                 data-caption='<a href="{{image.image_path.url}}"><h6>{{image.image_name}}</h6></a>
                                                                     <p>{{image.image_description}}</p>
-                                                                    <p>Category {{image.image_category}}</p>
-                                                                    <button class="rounded btn btn-dark" onclick="copyLink()" >📋Copy Link</button>'>
+                                                                    <p>Category: {{image.image_category}}</p>
+                                                                    <button class="rounded btn btn-dark">📋Copy Link</button>'>
                 <img class="rounded image" src="{{image.image_path.url}}" alt="{{image.image_name}}">
             </a>
             <input type="text" id="imagelink" class="invisible form-control input-sm d-none" value="{{image.image_path.url}}">
