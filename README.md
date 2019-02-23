@@ -17,7 +17,6 @@ A personal gallery application for dispalying personal photos.
 
 ### Installation Requirements
 
-```
 git clone https://github.com/ClintonClin/photogenic.git
 
 virtualenv virtual
