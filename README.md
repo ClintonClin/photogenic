@@ -4,10 +4,9 @@ A personal gallery application for dispalying personal photos.
 #### By **[Clinton Okerio](https://github.com/ClintonClin)**
 
 ### Technologies
-* Backend:
+* Backend and Frontend:
       * Python 3.6
       * Django 1.11.5
-* Font End:
       * HTML
       * CSS
       * Bootstrap
